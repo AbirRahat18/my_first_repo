@@ -1,1 +1,108 @@
-# my_first_repo
+/* nav style */
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.open-sans-nav {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    
+}
+.nav{font-size: 45px;
+font-weight: 800;margin-left: 50px;}
+
+
+.color{color: #FD6E0A;}
+
+
+nav ul li{list-style: none;margin-right: 50px;
+}
+
+nav a{text-decoration: none; color: #474747;font-size: 20px;}
+
+nav ul{display: flex; align-items: center;}
+
+.btn{background-color: #FD6E0A;width: 150px;height: 64px; border-radius: 5px;border:1px solid  #FD6E0A;color: white;font-size: 18px;}
+
+
+.btn:hover{background-color: white;color: #FD6E0A;}
+
+/* banner style */
+
+.banner{display: flex; justify-content: space-between;margin: 0 35px 0 230px;}
+
+.banner-content{max-width: 580px;}
+
+.image{width: 410px; ;height: }
+
+.greatting{font-size: 45px;}
+
+.maincontent{font-size: 85px;margin: 10px 20px 70px;}
+
+
+header{background-image: url("../developer.png"),url("../header_bg.png")
+;background-repeat: no-repeat; background-position: top left,bottom right; background-color:#FFF8F3 ;}
+
+main{max-width: 1140px;
+margin: auto; }
+
+h3{text-align: center;}
+
+.sectionSttyle{background-color: #FFF8F3;
+border-radius: 10px;padding: 130px 150px;
+margin-top: 130px}
+
+.about-title{font-family:   ;
+}
+
+.about-item{justify-content:space-around ;}
+
+.about-title{font-weight: bold;}
+
+.about-items{justify-content: space-around;
+display: flex;}
+
+.skills{margin-top: 130px;margin-bottom: 130px;}
+
+.skill-title{}
+
+.skill-description{}
+
+.skills-container{display: flex;
+gap: 24px;padding: ;}
+
+.skill{padding: 30px;
+         box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.09);border-radius: 5px; text-align:;}
+
+.description{text-align: center;}   
+
+.double{display: flex; gap: 24px;}
+
+h3{text-align: left;}
+
+.mainhead{text-align: center;margin-bottom:;}
+
+.section3{margin-top: 130px;margin-bottom: 130px;}
+
+.resume-container{display: flex; gap: 24px;}
+
+.btn1{text-align: center;margin-top: 30px;}
+
+
+.h33{text-align: center;}
+
+
+footer{display: flex; background-color: #FFF8F3;gap: 100px;padding: 100px 70px;}
+
+.message{width: 50%;gap: 24px;}
+
+.input1{display: block;width: 400px;height: 64px;margin-bottom:24px;border: none;padding:10px ;}
+.btn{padding: 10px;}
+
+
